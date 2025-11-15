@@ -21,7 +21,6 @@ app.add_middleware(
 
 templates = Jinja2Templates(directory="templates")
 
-# Lazy load model & scaler
 model = None
 scaler = None
 
